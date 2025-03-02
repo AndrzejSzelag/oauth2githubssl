@@ -36,6 +36,6 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 
           git clone https://github.com/AndrzejSzelag/oauth2githubssl.git
 
-3. Use a URL:
+3. Run application and in your web browser paste a URL:
 
           http://localhost:8080
