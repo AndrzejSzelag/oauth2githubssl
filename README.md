@@ -1,6 +1,6 @@
 # OAuth 2.0 GitHub SSL
 
-### A Spring Boot web application configured to use OAuth 2.0 with GitHub API and self-signed SSL certificate..
+### A Spring Boot web application configured to use OAuth 2.0 with GitHub API and self-signed SSL certificate.
 
 ![OAuth2GitHub1.java](OAuth2GitHub1.png "OAuth2Github - Login")
 ![OAuth2GitHub2.java](OAuth2GitHub2.png "OAuth2GitHub - Home")
