@@ -32,10 +32,10 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
         CLIENT_SECRET  
         REDIRECT_URI (e.g. http://localhost:8080/login/oauth2/code/github)
 
-3. Clone a GitHub Repository to your computer:
+2. Clone a GitHub Repository to your computer:
 
           git clone https://github.com/AndrzejSzelag/oauth2githubssl.git
 
-4. Run JAR file and in your web browser paste a URL:
+3. Use a URL:
 
           http://localhost:8080
