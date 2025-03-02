@@ -1,0 +1,5 @@
+org\szelag\oauth2githubssl\config\HttpToHttpsRedirectConfig.class
+org\szelag\oauth2githubssl\internationalization\i18Config.class
+org\szelag\oauth2githubssl\config\SecurityConfig.class
+org\szelag\oauth2githubssl\controller\HomeController.class
+org\szelag\oauth2githubssl\OAuth2GitHubSSLApp.class
