@@ -8,13 +8,8 @@
 * 🔶 Gradle 8.12.1
 * 🔶 Apache Tomcat 10.1.36
 
-### Testing
-* 🔶 JUnit 5.12.0
-* 🔶 AssertJ 3.26.3
-* 🔶 Mockito 5.14.2
-
 ### IDE
-* 🔶 Visual Studio Code - Insiders 1.98.0 - insider
+* 🔶 Visual Studio Code - Insiders 1.97.2
 
 
 #### What is OAuth 2.0?
