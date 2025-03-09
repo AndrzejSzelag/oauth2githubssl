@@ -28,32 +28,37 @@ public class HomeController {
     }
 
     private void isHtmlUrl(OAuth2User oauth2User, final Model model) {
-        if (oauth2User.getAttribute("html_url") != null) {
-            model.addAttribute("html_url", oauth2User.getAttribute("html_url"));
+        final String HTML_URL = "html_url";
+        if (oauth2User.getAttribute(HTML_URL) != null) {
+            model.addAttribute(HTML_URL, oauth2User.getAttribute(HTML_URL));
         }
     }
 
     private void isBio(OAuth2User oauth2User, final Model model) {
-        if (oauth2User.getAttribute("bio") != null) {
-            model.addAttribute("bio", oauth2User.getAttribute("bio"));
+        final String BIO = "bio";
+        if (oauth2User.getAttribute(BIO) != null) {
+            model.addAttribute(BIO, oauth2User.getAttribute(BIO));
         }
     }
 
     private void isLocation(OAuth2User oauth2User, final Model model) {
-        if (oauth2User.getAttribute("location") != null) {
-            model.addAttribute("location", oauth2User.getAttribute("location"));
+        final String LOCATION = "location";
+        if (oauth2User.getAttribute(LOCATION) != null) {
+            model.addAttribute(LOCATION, oauth2User.getAttribute(LOCATION));
         }
     }
 
     private void isName(OAuth2User oauth2User, final Model model) {
-        if (oauth2User.getAttribute("name") != null) {
-            model.addAttribute("name", oauth2User.getAttribute("name"));
+        final String NAME = "name";
+        if (oauth2User.getAttribute(NAME) != null) {
+            model.addAttribute(NAME, oauth2User.getAttribute(NAME));
         }
     }
 
     private void isAvatarUrl(OAuth2User oauth2User, final Model model) {
-        if (oauth2User.getAttribute("avatar_url") != null) {
-            model.addAttribute("avatar_url", oauth2User.getAttribute("avatar_url"));
+        final String AVATAR_URL = "avatar_url";
+        if (oauth2User.getAttribute(AVATAR_URL) != null) {
+            model.addAttribute(AVATAR_URL, oauth2User.getAttribute(AVATAR_URL));
         }
     }
 
