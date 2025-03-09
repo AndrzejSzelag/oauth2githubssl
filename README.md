@@ -10,6 +10,7 @@
 * 🔶 Spring Boot 3.4.3
 * 🔶 Gradle 8.12.1
 * 🔶 Apache Tomcat 10.1.36
+* 🔶 Sonarqube Gradle 4.0.0.2929
 
 ### IDE
 * 🔶 Visual Studio Code - Insiders 1.97.2
