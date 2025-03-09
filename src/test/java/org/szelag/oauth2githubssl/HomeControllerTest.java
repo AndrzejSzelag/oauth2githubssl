@@ -38,7 +38,7 @@ class HomeControllerTest {
     private MockHttpServletResponse response;
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         request = new MockHttpServletRequest();
         response = new MockHttpServletResponse();
     }
