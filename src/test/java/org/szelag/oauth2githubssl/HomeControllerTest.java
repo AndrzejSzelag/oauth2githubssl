@@ -23,7 +23,7 @@ import org.szelag.oauth2githubssl.controller.HomeController;
 
 @SpringBootTest
 @AutoConfigureMockMvc
-public class HomeControllerTest {
+class HomeControllerTest {
 
     @Mock
     private OAuth2User oauth2User;
@@ -44,7 +44,7 @@ public class HomeControllerTest {
     }
 
     @Test
-    public void testHomeWithAuthenticatedUser() {
+    void testHomeWithAuthenticatedUser() {
         // given
         when(oauth2User.getAttribute("avatar_url")).thenReturn("https://avatars.githubusercontent.com");
         when(oauth2User.getAttribute("name")).thenReturn("Andrzej Szelag");
@@ -65,7 +65,7 @@ public class HomeControllerTest {
     }
 
     @Test
-    public void testHomeWithAuthenticatedUserMissingAttributes() {
+    void testHomeWithAuthenticatedUserMissingAttributes() {
         // given
         when(oauth2User.getAttribute("avatar_url")).thenReturn("https://avatars.githubusercontent.com");
         when(oauth2User.getAttribute("name")).thenReturn(null);
@@ -86,7 +86,7 @@ public class HomeControllerTest {
     }
 
     @Test
-    public void testHomeWithNoAuthenticatedUser() {
+    void testHomeWithNoAuthenticatedUser() {
         // when
         String viewName = homeController.home(null, model);
 
@@ -96,7 +96,7 @@ public class HomeControllerTest {
     }
 
     @Test
-    public void testLogin() {
+    void testLogin() {
         // when
         String viewName = homeController.login();
 
@@ -105,7 +105,7 @@ public class HomeControllerTest {
     }
 
     @Test
-    public void testLogout() {
+    void testLogout() {
         var originalContext = SecurityContextHolder.getContext();
         try {
             // when
