@@ -2,7 +2,6 @@ package org.szelag.oauth2githubssl;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
@@ -36,12 +35,6 @@ class HomeControllerTest {
 
     private MockHttpServletRequest request;
     private MockHttpServletResponse response;
-
-    @BeforeEach
-    void setUp() {
-        request = new MockHttpServletRequest();
-        response = new MockHttpServletResponse();
-    }
 
     @Test
     void testHomeWithAuthenticatedUser() {
