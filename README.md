@@ -25,16 +25,16 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 
 #### How use OAuth2.0?
 
-1. Configuring an **OAuth 2.0 GitHub SSL** application in **GitHub** (https://github.com/: Settings -> Developer settings).
+1. Clone a GitHub Repository to your computer:
+
+          git clone https://github.com/AndrzejSzelag/oauth2githubssl.git
+
+2. Configuring an **OAuth 2.0 GitHub SSL** application in **GitHub** (https://github.com/: Settings -> Developer settings).
 
    You need:
 
         CLIENT_ID
         CLIENT_SECRET
-
-2. Clone a GitHub Repository to your computer:
-
-          git clone https://github.com/AndrzejSzelag/oauth2githubssl.git
 
 3. To run a Spring Boot project using Gradle from the command line, follow these steps:
 * Open a terminal in the project's root directory.
