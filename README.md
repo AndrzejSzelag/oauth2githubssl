@@ -30,8 +30,7 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
    You need:
 
         CLIENT_ID
-        CLIENT_SECRET  
-        REDIRECT_URI (e.g. http://localhost:8080/login/oauth2/code/github)
+        CLIENT_SECRET
 
 2. Clone a GitHub Repository to your computer:
 
