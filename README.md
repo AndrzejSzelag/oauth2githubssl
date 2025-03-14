@@ -36,6 +36,12 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 
           git clone https://github.com/AndrzejSzelag/oauth2githubssl.git
 
-3. Run application and in your web browser paste a URL:
+3. To run a Spring Boot project using Gradle from the command line, follow these steps:
+* Open a terminal in the project's root directory.
+* Execute the command: gradle bootRun.
+
+          gradle bootRun
+          
+4. "Paste the URL into your web browser:
 
           http://localhost:8080
