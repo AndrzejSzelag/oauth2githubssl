@@ -44,6 +44,6 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 
           gradle bootRun
           
-4. "Paste the URL into your web browser:
+4. Paste the URL into your web browser:
 
           http://localhost:8080
