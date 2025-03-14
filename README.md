@@ -48,4 +48,4 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 
           http://localhost:8080
 
-You have successfully run the Spring Boot project using Gradle!
+❤️ You have successfully run the Spring Boot project using Gradle!
