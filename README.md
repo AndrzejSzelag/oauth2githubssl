@@ -40,7 +40,7 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 
 3. To run a Spring Boot project using Gradle from the command line, follow these steps:
 * Open a terminal in the project's root directory.
-* Execute the command: gradle bootRun.
+* Execute the command:
 
           gradle bootRun
           
