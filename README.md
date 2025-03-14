@@ -36,8 +36,8 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
         CLIENT_ID
         CLIENT_SECRET
 
-          **Warning:**
-             These values should be set in the **application.yml** file in place of **CLIENT_ID** and **CLIENT_SECRET**.
+      **Warning:**
+      These values should be set in the **application.yml** file in place of **CLIENT_ID** and **CLIENT_SECRET**.
 
 4. To run a Spring Boot project using Gradle from the command line, follow these steps:
 * Open a terminal in the project's root directory.
