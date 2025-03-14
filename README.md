@@ -25,7 +25,7 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 
 #### How use OAuth2.0?
 
-1. Configuring an **OAuth 2.0 GitHub SSL** application in **GitHub** (https://github.com/ : Settings -> Developer Settings).
+1. Configuring an **OAuth 2.0 GitHub SSL** application in **GitHub** (https://github.com/: Settings -> Developer settings).
 
    You need:
 
