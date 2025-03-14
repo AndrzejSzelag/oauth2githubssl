@@ -13,7 +13,7 @@
 * 🔶 Sonarqube Gradle 4.0.0.2929
 
 ### IDE
-* 🔶 Visual Studio Code - Insiders 1.97.2
+* 🔶 Visual Studio Code 1.98.2
 
 
 #### What is OAuth 2.0?
