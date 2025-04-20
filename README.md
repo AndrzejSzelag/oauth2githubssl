@@ -1,4 +1,4 @@
-# OAuth 2.0 GitHub SSL
+# OAuth 2.0 GitHub SSL [<img alt="springboot" src="https://img.shields.io/badge/Spring Boot-3.4.3-COLOR.svg?logo=LOGO">](<https://spring.io/projects/spring-boot>) [<img alt="gradle" src="https://img.shields.io/badge/Gradle-8.12.1-COLOR.svg?logo=LOGO">](https://gradle.org/)
 
 ### A Spring Boot web application configured to use OAuth 2.0 with GitHub API and self-signed SSL certificate.
 
