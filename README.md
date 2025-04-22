@@ -3,6 +3,7 @@
 [<img alt="springboot" src="https://img.shields.io/badge/Spring Boot-3.4.3-COLOR.svg?logo=LOGO">](<https://spring.io/projects/spring-boot>) 
 [<img alt="Gradle" src="https://img.shields.io/badge/Gradle-8.12.1-02303A.svg?logo=gradle">](https://gradle.org/)
 [<img alt="OAuth 2.0" src="https://img.shields.io/badge/OAuth 2.0-Protocol-2C2255.svg?logo=oauth">](https://oauth.net/2/)
+[<img alt="Thymeleaf" src="https://img.shields.io/badge/Thymeleaf-3.1.1-005F0F.svg?logo=thymeleaf">](https://www.thymeleaf.org/)
 
 ### A Spring Boot web application configured to use OAuth 2.0 with GitHub API and self-signed SSL certificate.
 
