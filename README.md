@@ -4,6 +4,7 @@
 [<img alt="Gradle" src="https://img.shields.io/badge/Gradle-8.12.1-02303A.svg?logo=gradle">](https://gradle.org/)
 [<img alt="OAuth 2.0" src="https://img.shields.io/badge/OAuth 2.0-Protocol-2C2255.svg?logo=oauth">](https://oauth.net/2/)
 [<img alt="Thymeleaf" src="https://img.shields.io/badge/Thymeleaf-3.1.1-005F0F.svg?logo=thymeleaf">](https://www.thymeleaf.org/)
+[<img alt="SonarQube Gradle" src="https://img.shields.io/badge/SonarQube Gradle- 4.0.0.2929-4E9BCD.svg?logo=sonarqube">](https://www.sonarsource.com/products/sonarqube/)
 
 ### A Spring Boot web application configured to use OAuth 2.0 with GitHub API and self-signed SSL certificate.
 
