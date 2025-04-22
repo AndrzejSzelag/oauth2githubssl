@@ -50,7 +50,7 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
 * Open a terminal in the project's root directory.
 * Execute the command:
 
-          gradlew bootRun
+          gradle bootRun
           
 4. Paste the URL into your web browser:
 
