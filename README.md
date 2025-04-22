@@ -1,6 +1,6 @@
 # OAuth 2.0 GitHub SSL 
 
-[![SSL](https://img.shields.io/badge/SSL-self--signed-red.svg?logo=openssl)](https://en.wikipedia.org/wiki/Self-signed_certificate)
+[![SSL](https://img.shields.io/badge/SSL-self--signed-orange.svg?logo=openssl)](https://en.wikipedia.org/wiki/Self-signed_certificate)
 [<img alt="springboot" src="https://img.shields.io/badge/Spring Boot-3.4.3-COLOR.svg?logo=LOGO">](<https://spring.io/projects/spring-boot>) 
 [<img alt="Gradle" src="https://img.shields.io/badge/Gradle-8.12.1-02303A.svg?logo=gradle">](https://gradle.org/)
 [<img alt="OAuth 2.0" src="https://img.shields.io/badge/OAuth 2.0-Protocol-2C2255.svg?logo=oauth">](https://oauth.net/2/)
