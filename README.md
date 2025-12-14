@@ -47,6 +47,17 @@ in [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749).
       **Warning:**
       These values should be set in the **application.yml** file in place of **CLIENT_ID** and **CLIENT_SECRET**.
 
+###  Self-Signed SSL Configuration (Required for HTTPS)
+
+This application uses a self-signed SSL certificate for development and testing purposes with HTTPS. Since the private key file (`keystore.p12`) is excluded from the repository (via `.gitignore` for security reasons), you must generate your own local key before running the application.
+
+#### 1. Generate the Keystore File
+
+Execute the following command in the project's root directory. This requires **Java Development Kit (JDK)** to be installed, as it uses the `keytool` utility. 
+
+```bash
+keytool -genkeypair -alias gym-key -keyalg RSA -keysize 2048 -storetype PKCS12 -keystore src/main/resources/keystore.p12 -validity 3650
+
 4. To run a Spring Boot project using Gradle from the command line, follow these steps:
 * Open a terminal in the project's root directory.
 * Execute the command:
