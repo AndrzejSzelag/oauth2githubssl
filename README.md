@@ -64,14 +64,14 @@ keytool -genkeypair -alias oauth2githubssl-key -keyalg RSA -keysize 2048 -storet
 * **Password**: Use a secure password (e.g., ```haslo1234```) and remember it for the next step.
 
 ### 2. Configure the Application Properties
-After generating the ```keystore.p12``` file, ensure your **src/main/resources/application.properties** (or **application.yml**) file contains the following configuration, making sure to replace the placeholder password with the one you chose during generation:
+After generating the ```keystore.p12``` file, ensure your **src/main/resources/application.properties** file contains the following configuration, making sure to replace the placeholder password with the one you chose during generation:
 
       server.port=8443
       server.ssl.enabled=true
       server.ssl.key-store-type=PKCS12
       server.ssl.key-store=classpath:keystore.p12
-      server.ssl.key-store-password=haslo1234  # <--- REPLACE WITH YOUR PASSWORD
-      server.ssl.key-alias=gym-key
+      server.ssl.key-store-password=haslo1234
+      server.ssl.key-alias=oauth2githubssl-key
 
 
 ### To run a Spring Boot project using Gradle from the command line, follow these steps:
