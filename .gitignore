@@ -36,3 +36,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+src/main/resources/keystore.jks
+src/main/resources/keystore.p12
